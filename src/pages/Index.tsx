@@ -154,7 +154,493 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Add any other sections here */}
+      {/* About EECP Section */}
+      <section id="about" className="py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">What is Enhanced External Counterpulsation?</h2>
+            <p className="text-lg text-eecp-lightGray">
+              EECP is a non-invasive treatment that improves blood flow to the heart and body, offering a safe alternative to invasive procedures.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <ScrollReveal>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8 text-center">
+                  <div className="mx-auto w-16 h-16 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-6">
+                    <HeartPulse className="w-8 h-8 text-eecp-blue" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">Non-Invasive Treatment</h3>
+                  <p className="text-eecp-lightGray">
+                    EECP therapy provides a non-surgical treatment option for patients with heart conditions without the risks and recovery time of invasive procedures.
+                  </p>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={200}>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8 text-center">
+                  <div className="mx-auto w-16 h-16 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-6">
+                    <Activity className="w-8 h-8 text-eecp-blue" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">Improves Blood Flow</h3>
+                  <p className="text-eecp-lightGray">
+                    By enhancing circulation and promoting the development of collateral blood vessels, EECP helps deliver more oxygen to heart tissues.
+                  </p>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={400}>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8 text-center">
+                  <div className="mx-auto w-16 h-16 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-6">
+                    <Heart className="w-8 h-8 text-eecp-blue" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">FDA Approved</h3>
+                  <p className="text-eecp-lightGray">
+                    EECP is FDA-approved for the treatment of coronary artery disease, angina, heart failure, and has shown benefits for other conditions.
+                  </p>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section id="benefits" className="py-20 bg-gradient-to-b from-eecp-gray/30 to-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Benefits of EECP Therapy</h2>
+            <p className="text-lg text-eecp-lightGray">
+              EECP provides multiple health benefits beyond just treating heart conditions
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            <ScrollReveal>
+              <div className="p-6 bg-white rounded-2xl shadow-md h-full fade-up">
+                <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-4">
+                  <Heart className="w-6 h-6 text-eecp-blue" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Reduced Chest Pain</h3>
+                <p className="text-eecp-lightGray">
+                  Over 80% of patients report significant reduction in angina frequency and intensity after treatment.
+                </p>
+              </div>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={100}>
+              <div className="p-6 bg-white rounded-2xl shadow-md h-full fade-up">
+                <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-4">
+                  <Activity className="w-6 h-6 text-eecp-blue" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Increased Energy</h3>
+                <p className="text-eecp-lightGray">
+                  Patients experience improved stamina and energy levels as circulation improves throughout the body.
+                </p>
+              </div>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={200}>
+              <div className="p-6 bg-white rounded-2xl shadow-md h-full fade-up">
+                <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-4">
+                  <Brain className="w-6 h-6 text-eecp-blue" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Cognitive Benefits</h3>
+                <p className="text-eecp-lightGray">
+                  Improved blood flow to the brain may enhance cognitive function and mental clarity.
+                </p>
+              </div>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={300}>
+              <div className="p-6 bg-white rounded-2xl shadow-md h-full fade-up">
+                <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mb-4">
+                  <Timer className="w-6 h-6 text-eecp-blue" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Long-lasting Results</h3>
+                <p className="text-eecp-lightGray">
+                  Most patients maintain improvements for years after completing the standard treatment protocol.
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+          
+          <ScrollReveal>
+            <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center fade-up">
+              <div className="rounded-2xl overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1789&q=80" 
+                  alt="Patient receiving EECP treatment" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold">Why Patients Choose EECP</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                    <p>Non-invasive alternative to surgical procedures like bypass or stenting</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                    <p>No downtime or recovery period needed after sessions</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                    <p>Cumulative benefits with each session for lasting results</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                    <p>Complementary to existing medications and treatments</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-6 w-6 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                    <p>Covered by many insurance plans, including Medicare</p>
+                  </div>
+                </div>
+                <Button 
+                  onClick={() => document.getElementById("booking")?.scrollIntoView()}
+                  className="mt-4"
+                >
+                  Schedule Your Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+      
+      {/* Treatment Process Section */}
+      <section id="process" className="py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">The EECP Treatment Process</h2>
+            <p className="text-lg text-eecp-lightGray">
+              Understanding what to expect during your EECP therapy sessions
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            <ScrollReveal>
+              <div className="relative pl-8 border-l-2 border-eecp-blue/20 fade-up">
+                <div className="absolute -left-4 top-0 w-8 h-8 bg-eecp-blue text-white rounded-full flex items-center justify-center">
+                  1
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Initial Assessment</h3>
+                <p className="text-eecp-lightGray mb-4">
+                  Our cardiologists will conduct a thorough evaluation to determine if EECP is right for you and create a personalized treatment plan.
+                </p>
+                <p className="text-sm text-eecp-lightGray italic">
+                  Duration: 60 minutes
+                </p>
+              </div>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={200}>
+              <div className="relative pl-8 border-l-2 border-eecp-blue/20 fade-up">
+                <div className="absolute -left-4 top-0 w-8 h-8 bg-eecp-blue text-white rounded-full flex items-center justify-center">
+                  2
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Treatment Sessions</h3>
+                <p className="text-eecp-lightGray mb-4">
+                  You'll lie comfortably on a treatment bed with pressure cuffs wrapped around your legs. The system will synchronize with your heartbeat to optimize blood flow.
+                </p>
+                <p className="text-sm text-eecp-lightGray italic">
+                  Duration: 1 hour per session, 35 sessions total
+                </p>
+              </div>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={400}>
+              <div className="relative pl-8 border-l-2 border-eecp-blue/20 fade-up">
+                <div className="absolute -left-4 top-0 w-8 h-8 bg-eecp-blue text-white rounded-full flex items-center justify-center">
+                  3
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Follow-up Care</h3>
+                <p className="text-eecp-lightGray mb-4">
+                  After completing your treatment course, we'll monitor your progress and provide guidance on maintaining your improved cardiovascular health.
+                </p>
+                <p className="text-sm text-eecp-lightGray italic">
+                  Ongoing support for lasting results
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+          
+          <ScrollReveal>
+            <div className="bg-eecp-blue/5 rounded-2xl p-8 mb-12 fade-up">
+              <h3 className="text-2xl font-semibold mb-6 text-center">What to Expect During Treatment</h3>
+              
+              <Tabs defaultValue="preparation" className="w-full">
+                <TabsList className="grid w-full grid-cols-3">
+                  <TabsTrigger value="preparation">Preparation</TabsTrigger>
+                  <TabsTrigger value="during">During Session</TabsTrigger>
+                  <TabsTrigger value="after">After Treatment</TabsTrigger>
+                </TabsList>
+                <TabsContent value="preparation" className="p-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Wear comfortable clothing, preferably loose-fitting pants or shorts</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Eat a light meal before your session</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Continue taking your regular medications unless advised otherwise</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Arrive 15 minutes early for your first session</p>
+                    </li>
+                  </ul>
+                </TabsContent>
+                <TabsContent value="during" className="p-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>You'll lie comfortably on a treatment bed</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Pressure cuffs will be wrapped around your calves, thighs, and buttocks</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>ECG leads will monitor your heart rhythm</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>You may read, watch TV, or even nap during the treatment</p>
+                    </li>
+                  </ul>
+                </TabsContent>
+                <TabsContent value="after" className="p-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>You can immediately return to normal activities</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Stay well-hydrated after each session</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Report any unusual symptoms to your healthcare provider</p>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-eecp-blue mr-3 mt-0.5 flex-shrink-0" />
+                      <p>Many patients notice gradual improvement as sessions progress</p>
+                    </li>
+                  </ul>
+                </TabsContent>
+              </Tabs>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Results/Testimonials Section */}
+      <section id="testimonials" className="py-20 bg-gradient-to-b from-white to-eecp-gray/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Patient Success Stories</h2>
+            <p className="text-lg text-eecp-lightGray">
+              Real results from real patients who have experienced the benefits of EECP therapy
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ScrollReveal>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8">
+                  <div className="flex mb-6">
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                  </div>
+                  <blockquote className="text-eecp-lightGray mb-6">
+                    "After my third heart attack, I was told I wasn't a candidate for another stent. EECP has been life-changing—I'm back to walking 2 miles daily without chest pain."
+                  </blockquote>
+                  <div className="flex items-center">
+                    <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4">
+                      <span className="font-semibold text-eecp-blue">RM</span>
+                    </div>
+                    <div>
+                      <p className="font-medium">Robert M.</p>
+                      <p className="text-sm text-eecp-lightGray">Age 68, Heart Disease</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={200}>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8">
+                  <div className="flex mb-6">
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                  </div>
+                  <blockquote className="text-eecp-lightGray mb-6">
+                    "I was skeptical at first, but by the 15th session, I noticed a significant difference in my energy levels and chest pain. Now I can play with my grandchildren without limitations."
+                  </blockquote>
+                  <div className="flex items-center">
+                    <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4">
+                      <span className="font-semibold text-eecp-blue">SJ</span>
+                    </div>
+                    <div>
+                      <p className="font-medium">Susan J.</p>
+                      <p className="text-sm text-eecp-lightGray">Age 59, Angina</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+            
+            <ScrollReveal delay={400}>
+              <Card className="border-none shadow-lg h-full fade-up">
+                <CardContent className="p-8">
+                  <div className="flex mb-6">
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                    <Heart className="text-eecp-blue fill-eecp-blue h-5 w-5" />
+                  </div>
+                  <blockquote className="text-eecp-lightGray mb-6">
+                    "As a physician myself, I was impressed by the research behind EECP. After completing the treatment protocol, my ejection fraction improved from 32% to 45%. The results speak for themselves."
+                  </blockquote>
+                  <div className="flex items-center">
+                    <div className="w-12 h-12 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4">
+                      <span className="font-semibold text-eecp-blue">DT</span>
+                    </div>
+                    <div>
+                      <p className="font-medium">Dr. Thomas L.</p>
+                      <p className="text-sm text-eecp-lightGray">Age 62, Heart Failure</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </ScrollReveal>
+          </div>
+          
+          <ScrollReveal>
+            <div className="mt-16 bg-white p-8 rounded-2xl shadow-lg fade-up">
+              <h3 className="text-2xl font-semibold mb-8 text-center">Common Questions About Results</h3>
+              
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-1">
+                  <AccordionTrigger>When will I start feeling results?</AccordionTrigger>
+                  <AccordionContent>
+                    Most patients begin to notice improvements between the 15th and 20th session, though this varies by individual. Some patients experience benefits sooner, while others may take longer. The full benefits of EECP therapy are typically realized after completing the full 35-session protocol.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger>How long do the results last?</AccordionTrigger>
+                  <AccordionContent>
+                    Clinical studies show that the benefits of EECP therapy can last from 3 to 5 years after a full course of treatment. Many patients maintain their improvements with healthy lifestyle choices. Some patients benefit from periodic "maintenance" sessions to extend the beneficial effects.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-3">
+                  <AccordionTrigger>What improvements can I expect?</AccordionTrigger>
+                  <AccordionContent>
+                    Patients commonly report reduced chest pain (angina), increased energy levels, improved exercise capacity, reduced need for nitroglycerin, better sleep quality, and an overall improved quality of life. Many patients also experience improvements in measurable clinical markers such as ejection fraction and perfusion.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-4">
+                  <AccordionTrigger>Is EECP covered by insurance?</AccordionTrigger>
+                  <AccordionContent>
+                    Yes, EECP therapy is covered by Medicare and many private insurance plans for specific diagnoses, including angina and heart failure. Our staff will work with you to verify your coverage and assist with any necessary paperwork or prior authorizations.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Booking Section */}
+      <section id="booking" className="py-20 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-40 -right-40 w-96 h-96 rounded-full bg-eecp-blue/5 blur-3xl"></div>
+          <div className="absolute bottom-20 -left-20 w-72 h-72 rounded-full bg-eecp-blue/5 blur-3xl"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <ScrollReveal>
+                <div className="fade-up">
+                  <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your EECP Journey Today</h2>
+                  <p className="text-lg text-eecp-lightGray mb-8">
+                    Our experienced medical team is ready to help you improve your heart health with personalized EECP therapy. Schedule your consultation now.
+                  </p>
+                  
+                  <div className="space-y-6 mb-8">
+                    <div className="flex items-start">
+                      <div className="w-10 h-10 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <CheckCircle className="w-5 h-5 text-eecp-blue" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold mb-1">Comprehensive Evaluation</h3>
+                        <p className="text-eecp-lightGray">
+                          Our cardiologists will assess your condition to determine if EECP is right for you
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-10 h-10 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <CheckCircle className="w-5 h-5 text-eecp-blue" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold mb-1">Personalized Treatment Plan</h3>
+                        <p className="text-eecp-lightGray">
+                          We'll create a customized EECP protocol based on your specific needs
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-10 h-10 bg-eecp-blue/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <CheckCircle className="w-5 h-5 text-eecp-blue" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold mb-1">Comfortable Treatment Environment</h3>
+                        <p className="text-eecp-lightGray">
+                          Relax in our state-of-the-art facility while receiving your therapy
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ScrollReveal>
+              
+              <ScrollReveal delay={300}>
+                <div className="fade-up">
+                  <AppointmentForm />
+                </div>
+              </ScrollReveal>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
