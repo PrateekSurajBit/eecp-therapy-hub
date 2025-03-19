@@ -36,8 +36,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center space-x-2">
-            <Heart className="h-6 w-6 text-eecp-blue" />
-            <span className="text-xl font-medium tracking-tight">EECP Therapy</span>
+            <Heart className="h-6 w-6 text-eecp-blue fill-eecp-blue" />
+            <span className="text-xl font-medium tracking-tight">Zenkardia</span>
           </a>
 
           {isMobile ? (
